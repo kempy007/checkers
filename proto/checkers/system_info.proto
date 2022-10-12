@@ -1,0 +1,9 @@
+syntax = "proto3";
+package kempy007.checkers.checkers;
+
+option go_package = "github.com/kempy007/checkers/x/checkers/types";
+
+message SystemInfo {
+  uint64 nextId = 1; 
+  
+}
